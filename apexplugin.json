@@ -1,0 +1,35 @@
+{
+  "name" : "Touch Time Input V2",
+  "version" : "v1.0",
+  "description" : "Time input for touch devices APEX 18.1",
+  "keywords" : ["time input","touch","smartphone","dynamic action"],
+  "homepage" : "https://github.com/dickdral/apex_touch_time_input_v2",
+  "bugs" : {
+    "url" : "https://github.com/dickdral/apex_touch_time_input_v2/issues",
+    "email" : "dick.dral@detora.nl"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Dick Dral",
+    "email" : "dick.dral@detora.nl",
+    "url" : "http://www.detora.nl",
+    "twitter" : "dickdral",
+    "donationUrl" : "https://www.paypal.me/dickdral/3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dickdral/apex_touch_time_input_v2.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["18.1.0","19.1.0"],
+      "plugin" : {
+        "internalName" : "NL.DETORA.APEX.TOUCH_TIME_INPUT_V2",
+        "type" : "dynamic action",
+        "demo" : "http://www.speech2form.com/ords/f?p=OPFG:TIME_INPUT_DEMO",
+        "previewImage" : "https://raw.githubusercontent.com/dickdral/apex_touch_time_input_v2/master/apex_touch_time_input_v2_example.gif"
+      }
+    }
+  }
+}
